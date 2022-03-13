@@ -1,0 +1,22 @@
+matrix m1 {
+    TranslateX(3)
+    TranslateY(2)
+    TranslateZ(1)
+    Scale(2)
+}
+
+matrix m2 {
+    TranslateY(20)
+    TranslateX(30)
+    TranslateZ(10)
+}
+
+Object obj1 = Create Cube {
+    X = 1
+    Y = 1
+    Z = 0
+}
+
+Transform(obj, m1)
+Transform(obj, m2)
+ApplyTexture(obj, t1)

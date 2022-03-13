@@ -1,0 +1,8 @@
+Object fistic_pidar = Create Cube
+Object fistic_gandon = Create Sphere
+Object fistic_loh = Create Triangle
+Object abc = Create Pyramid {
+    X = 7
+    Radius = 234
+    Scale = 61
+}
